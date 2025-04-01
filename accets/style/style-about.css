@@ -1,0 +1,111 @@
+h2{
+    margin:0 auto;
+    font-size: 3vh;
+    padding: 5px;
+}
+.section .about{
+    display: flex;
+    max-width: 1400px;
+    margin: 7vh auto;
+    border: 1px solid rgb(56, 9, 109);
+    flex-direction: column;
+}
+
+.title{
+    background-color: #30164a;
+    color: #e5b5ff;
+    width: 100%;
+}
+
+.about-title{
+    display: flex;
+    align-items: center;
+    padding: 20px;    
+}
+
+.about-title h1{
+    margin: 0 auto;
+    font-size: 3vh;
+}
+
+.about-description{
+    display: flex;
+    align-items: center;
+    background-color: #a276bf;
+}
+
+.about-description p{
+    width: 80%;
+    padding-left: 5vh;
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+
+.about-img-1{
+    display: flex;
+    right: 0px;
+}
+
+.about-img-1 img{
+    width: 100%;
+    padding: 20px;
+    height:300px;
+}
+
+.about-title-skills{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 34%;
+}
+
+.about-skill-description{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color:  #c395df;
+}
+
+.about-skill-description ul{
+    margin: 0 auto;
+    font-size: 2.5vh;
+    color: white;
+    padding: 10px;
+}
+
+.about-skill-description ul li{
+    padding: 5px;
+}
+
+.about-skill-description ul li:hover{
+    font-weight: 800; 
+}
+
+.about-certificacao{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-certificacao-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-certificacao-description{
+    display: flex;
+    flex-direction: column;
+    background-color: #c395df;
+    padding: 20px;
+}
+
+.description{
+    color: white;
+    font-size: 2.0vh;
+}

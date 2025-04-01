@@ -1,0 +1,89 @@
+/* Estilos gerais */
+
+.cabecalho {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4b1c71;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #dba2ff;
+}
+
+.container a {
+    color: #dba2ff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.container ul li {
+    padding: 10px;
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+.container ul li a:hover {
+    font-weight: bold;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.container h1 {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+/* Menu responsivo */
+
+.menu-toggle {
+    display: none;
+    font-size: 3vh;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #dba2ff;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .container ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #4b1c71;
+    }
+    
+    .container ul.active {
+        display: flex;
+    }
+    
+    .container ul li {
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+    }
+}
